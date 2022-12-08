@@ -1,0 +1,60 @@
+.principal,
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+/*
+colores de fondo del body
+*/
+#img-1{
+  width: 5%;
+}
+.enojado{
+  background-color: red;
+}
+
+
+.tranquilo{
+  background-color: aqua;
+}
+
+.feliz{
+  background-color: yellow;
+}
+
+.triste{
+  background-color: blue;
+}
+
+/*
+colores de fondo de la seccion 
+*/
+.enojado-s{
+  background-color: rgb(245, 80, 80);
+}
+
+
+.feliz-s{
+  background-color: rgb(179, 179, 48);
+}
+
+
+.triste-s{
+  background-color: rgb(69, 69, 147) ;
+}
+
+.tranquilo{
+  background-color: rgb(57, 112, 112);
+}
+
+/*
+tamaños para las imagenes
+*/
+
+.feliz-2{
+  width: 3%;
+}
