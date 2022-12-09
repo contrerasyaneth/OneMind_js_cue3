@@ -55,6 +55,19 @@ colores de fondo de la seccion
 tamaños para las imagenes
 */
 
-.feliz-2{
-  width: 3%;
+.sentimiento{
+  width: 50%;
 }
+#feliz,
+#triste,
+#enojado,
+#tranquilo
+{
+  border-style: none;
+  width: 5%;
+}
+.btn{
+  text-align: center;
+}
+
+
