@@ -13,7 +13,8 @@
       <h1>¿Como te sientes hoy?</h1>
     </header>
 
-    <main id="main">
+     
+    <main id="main" class="main">
       <section id="contenido-1" class="principal">
         <img
           src="./Assets/images/cita.png"
@@ -21,26 +22,29 @@
           id="img-1"
         />
 
-        <form id="form">
+
+        <form id="form" class="form">
           <input
             type="text"
             id="sentimiento"
             placeholder="cuentame como te sientes"
             name="sentimiento"
-            required
-          />
+          >
 
-          <div class="btn">
-            <label for="emojin"> me siento... </label>
+          <div id="contenedor-btns">
+            <label for="emojin"> Me siento... </label>
 
-            <button type="submit" id="feliz"><img src="./Assets/images/risa (1).png" class="sentimiento"></button>
-            <button type="submit" id="triste"><img src="./Assets/images/triste.png" class="sentimiento"></button>
-            <button type="submit" id="tranquilo"><img src="./Assets/images/sonrisa.png" class="sentimiento"></button>
-            <button type="submit" id="enojado"><img src="./Assets/images/enojado.png" class="sentimiento"></button>
+            <button type="submit" class="feliz-btn">Feliz <a class="feliz-btn"></a><img src="./Assets/images/risa (1).png" class="img"></button>
+            <button type="submit" class="triste-btn">triste <a class="triste-btn"><img src="./Assets/images/triste.png" class="img"></a></button>
+            <button type="submit" class="tranquilo-btn">Tranquilo <a class="tranquilo-btn"><img src="./Assets/images/sonrisa.png" class="img2" ></a></button>
+            <button type="submit" class="enojado-btn">Enojado <a class="enojado-btn"><img src="./Assets/images/enojado.png" class="img2"></a></button>
+            <p id="estado-animo"></p>
           </div>
         </form>
+
       </section>
     </main>
+    
     <!--Mi hoja de js-->
     <script src="./js/main.js" type="text/javascript"></script>
   </body>

@@ -1,3 +1,5 @@
+
+
 .principal,
 form {
   display: flex;
@@ -6,6 +8,14 @@ form {
   flex-direction: column;
 }
 
+#main{
+  width: 80%;
+  height: 100%;
+  box-shadow: 10px 10px 5px rgba(0, 8, 11, 0.906);
+}
+*{
+  padding: 0%;
+}
 
 /*
 colores de fondo del body
@@ -14,32 +24,42 @@ colores de fondo del body
   width: 5%;
 }
 .enojado{
-  background-color: red;
+  background: rgb(244,7,40);
+background: linear-gradient(0deg, rgba(244,7,40,0.9840978627779237) 9%, rgba(242,240,234,0.9953023445706407) 97%);
+background-repeat: no-repeat;
 }
 
 
 .tranquilo{
-  background-color: aqua;
+  background: rgb(14,189,221);
+  background: linear-gradient(0deg, rgba(14,189,221,0.9784956218815651) 27%, rgba(247,251,251,1) 96%, rgba(236,238,242,1) 99%);
+  background-repeat: no-repeat;
 }
 
 .feliz{
-  background-color: yellow;
+  background-color: rgb(243,148,7);
+  background: linear-gradient(0deg, rgba(243,148,7,0.9784956218815651) 0%, rgba(249,249,246,1) 88%);;
+  background-repeat: no-repeat;
 }
 
 .triste{
-  background-color: blue;
+  background: rgb(14,19,221);
+  background: linear-gradient(0deg, rgba(14,19,221,0.9784956218815651) 27%, rgba(236,238,242,1) 96%, rgba(236,238,242,1) 134%);
+  background-repeat: no-repeat;
 }
+
+
 
 /*
 colores de fondo de la seccion 
 */
 .enojado-s{
-  background-color: rgb(245, 80, 80);
+  background-color: rgb(159, 8, 8);
 }
 
 
 .feliz-s{
-  background-color: rgb(179, 179, 48);
+  background-color: rgb(247, 190, 0);
 }
 
 
@@ -47,27 +67,42 @@ colores de fondo de la seccion
   background-color: rgb(69, 69, 147) ;
 }
 
-.tranquilo{
+.tranquilo-s{
   background-color: rgb(57, 112, 112);
+}
+
+
+
+/*
+estilo del contenedor
+*/
+#contenedor-btns{
+   width: 50%;
+   display: flex;
+   flex-direction: row;
+}
+
+.main{
+  margin-left: 10%;
 }
 
 /*
 tamaños para las imagenes
 */
-
-.sentimiento{
-  width: 50%;
+.img{
+  width: 100%;
 }
-#feliz,
-#triste,
-#enojado,
-#tranquilo
-{
+.img2{
+  width:80%;
+}
+
+/*
+estilo de botones
+*/
+.tranquilo-btn,
+.enojado-btn,
+.triste-btn,
+.feliz-btn{
   border-style: none;
-  width: 5%;
 }
-.btn{
-  text-align: center;
-}
-
 
