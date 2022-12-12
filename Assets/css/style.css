@@ -13,9 +13,7 @@ form {
   height: 100%;
   box-shadow: 10px 10px 5px rgba(0, 8, 11, 0.906);
 }
-*{
-  padding: 0%;
-}
+
 
 /*
 colores de fondo del body
@@ -24,28 +22,25 @@ colores de fondo del body
   width: 5%;
 }
 .enojado{
-  background: rgb(244,7,40);
-background: linear-gradient(0deg, rgba(244,7,40,0.9840978627779237) 9%, rgba(242,240,234,0.9953023445706407) 97%);
-background-repeat: no-repeat;
+
+  
 }
 
 
 .tranquilo{
-  background: rgb(14,189,221);
-  background: linear-gradient(0deg, rgba(14,189,221,0.9784956218815651) 27%, rgba(247,251,251,1) 96%, rgba(236,238,242,1) 99%);
-  background-repeat: no-repeat;
+  background: rgb(116, 194, 210);
+background:(0deg, rgba(227,221,209,1) 33%, rgba(227,221,209,1) 48%, rgba(34,193,195,1) 100%);
 }
 
 .feliz{
-  background-color: rgb(243,148,7);
-  background: linear-gradient(0deg, rgba(243,148,7,0.9784956218815651) 0%, rgba(249,249,246,1) 88%);;
-  background-repeat: no-repeat;
+  background-image:(180deg, #FFFFFF 100%, #f6d9d9 100% );
+  background-color: #68d7f0;
 }
 
+
 .triste{
-  background: rgb(14,19,221);
-  background: linear-gradient(0deg, rgba(14,19,221,0.9784956218815651) 27%, rgba(236,238,242,1) 96%, rgba(236,238,242,1) 134%);
-  background-repeat: no-repeat;
+  background: rgb(134, 135, 202);
+  background: (0deg, rgba(14,19,221,0.9784956218815651) 27%, rgba(236,238,242,1) 96%, rgba(236,238,242,1) 134%);
 }
 
 
@@ -77,7 +72,6 @@ colores de fondo de la seccion
 estilo del contenedor
 */
 #contenedor-btns{
-   width: 50%;
    display: flex;
    flex-direction: row;
 }
@@ -90,10 +84,10 @@ estilo del contenedor
 tamaños para las imagenes
 */
 .img{
-  width: 100%;
+  width: 20%;
 }
 .img2{
-  width:80%;
+  width:20%;
 }
 
 /*
@@ -103,6 +97,6 @@ estilo de botones
 .enojado-btn,
 .triste-btn,
 .feliz-btn{
-  border-style: none;
+ width: 10%;
 }
 
